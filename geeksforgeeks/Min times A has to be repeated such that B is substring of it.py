@@ -1,3 +1,5 @@
+#Google
+
 class Solution:
     def minRepeats(self, A, B):
         for i in B:

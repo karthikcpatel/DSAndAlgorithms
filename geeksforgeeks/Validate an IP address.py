@@ -1,3 +1,5 @@
+#Amazon #Microsoft #Qualcomm #Zoho
+
 def isValid(s):
    if '..'in s or s.count('.')>3 or s.count('.')<3 :
        return False

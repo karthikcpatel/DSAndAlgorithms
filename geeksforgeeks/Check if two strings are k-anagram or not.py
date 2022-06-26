@@ -1,3 +1,5 @@
+#Google #Microsoft #Amazon #Accolite
+
 def arekAnagrams(str1, str2, k):
     if len(str1) != len(str2):
         return False

@@ -1,3 +1,5 @@
+#Sophos
+
 array = [10,15,10,16,19,10,15]
 temp_array = []
 for i in array:
