@@ -1,3 +1,5 @@
+#Adobe #Aamzon #Cisco #Intuit #Microsoft #Morgan Stanley #Ola Cabs #PayU #Qualcomm #Visa #Flipkart
+
 def missing_number_in_array():
     n = arr[-1]
     total = n*(n+1)//2
