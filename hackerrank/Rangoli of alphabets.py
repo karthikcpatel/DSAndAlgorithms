@@ -13,3 +13,8 @@ if __name__ == '__main__':
     print_rangoli(n)
 
 # URL for reference - https://www.thepoorcoder.com/alphabet-rangoli/
+# n = 3
+# line 3 can be replaced by for loop using below syntax:
+# string = []
+# for i in range(n)
+#   string.append(i)

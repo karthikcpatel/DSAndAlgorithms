@@ -13,10 +13,10 @@ areIsomorphic("aab","xxy")
 def areIsomorphic(str1,str2):
     dict_str1 = {}
     dict_str2 = {}
-    for i, value in enumerate(str1):
-        dict_str1[value] = dict_str1.get(value, []) + [i]
-    for j, value in enumerate(str2):
-        dict_str2[value] = dict_str2.get(value, []) + [j]
+    for x, y in enumerate(str1):
+        dict_str1[y] = dict_str1.get(y, []) + [x]
+    for i, j in enumerate(str2):
+        dict_str2[j] = dict_str2.get(j, []) + [i]
 
     if sorted(dict_str1.values()) == sorted(dict_str2.values()):
         print("Solution 2 - Isomorphic")
