@@ -1,4 +1,5 @@
 string = input("Enter some text: ")
+string.split(" ")
 dict = {}
 for i in string:
     if i not in dict.keys():

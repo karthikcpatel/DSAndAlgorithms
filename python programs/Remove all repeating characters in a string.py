@@ -11,3 +11,9 @@ for i in string:
     else:
         print("There are no non-repeating characters in given string")
 print(remove_duplicate)
+
+string1 = "kartik"
+f_string = (set(string1))
+print(f_string)
+str1 = "".join(f_string)
+print(str1)

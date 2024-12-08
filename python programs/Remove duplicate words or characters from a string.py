@@ -1,19 +1,12 @@
-string = "Hippopotamus".lower()
-char = []
-for i in string:
-    if i not in char:
-        char.append(i)
-    else:
-        print(f"The word {i} appears times", string.count(i))
-print("String after removing duplicate characters is: ",char)
+def remove_duplicate_characters(string):
+    result = []
+    for char in string:
+        if char not in result:
+            result.append(char)
+    return ''.join(result)
 
-
-string = "Hippopotamus".lower()
-duplicate = ""
-for i in string:
-    print(f"The word {i} appears times", string.count(i))
-    if i not in duplicate:
-        duplicate = duplicate+i
-    else:
-        pass
-print(duplicate)
+# Example usage
+input_string = "programming"
+output = remove_duplicate_characters(input_string)
+print("After removing duplicate characters:", output)
+# Output: "progamin"

@@ -23,7 +23,7 @@ def check_anagram(data1, data2):
     if (len(data1) == len(data2)):
         if (set(data1.lower()) == set(data2.lower())):
             for i in range(len(data1)):
-                if data1[i] != data2[i]:
+                if data1[i] == data2[i]:
                     flag = True
 
     return flag

@@ -3,3 +3,4 @@ result = {}
 for i in list:
     result[i] = list.count(i)
 print(result)
+

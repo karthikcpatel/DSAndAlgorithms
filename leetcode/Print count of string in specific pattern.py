@@ -1,6 +1,6 @@
 #Microsoft
 
-string = "aabbccdaa"
+string = "aabbccdaae"
 new_string = ""
 count = 1
 for i in range(0,len(string)-1):
